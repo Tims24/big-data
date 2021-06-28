@@ -59,5 +59,5 @@ if __name__ == '__main__':
     print('Простое последовательное чтение')
     print(timeit.timeit('simple(file_name)', globals=locals(), number=1))
 
-    print('Multithread search')
+    print('Многопоточная + memory-mapped files')
     print(timeit.timeit('multithread(file_name)', globals=ocals(), number=1))
